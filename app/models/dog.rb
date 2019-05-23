@@ -8,10 +8,10 @@ class Dog
     @name = name
     @age = age
     @breed = breed
-    @@all << Dog.new
+    @@all << self
   end
 
   def self.all
-    
+    @@all
   end
 end
